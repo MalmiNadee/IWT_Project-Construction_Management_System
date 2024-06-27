@@ -1,0 +1,106 @@
+/*about us*/
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+   
+  background: radial-gradient(circle at -8.9% 51.2%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 15.9%,
+   rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
+}
+.about-1{
+    font-family: bahnschrift;
+    margin-top: 20px;
+    margin: 30px;
+    padding: black;
+    font-weight: bold;
+}
+    
+
+.about-1 h1{
+    font-size: 40px;
+    margin-top: 100px;
+    text-align: center;
+    color: rgba(52, 97, 97, 0.756);
+    font-weight: bold;
+    
+}
+.about-1 p{
+    font-size: 20px;
+    text-align: center;
+    padding: 3px;
+    color: #f9fdff;
+}
+.about-item i{
+    font-size: 43px;
+    margin: 0;
+}
+.about-item h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.about-item hr{
+    width: 46px;
+    height:3px;
+    background-color: #5fbff9;
+    margin: 0 auto;
+    border: nome;
+}
+.about-item p{
+    font-family: bahnschrift;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.about-item:hover{
+    background-color: #5fbff9;
+}
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover p{
+    color: #fff;
+}
+.about-item:hover hr{
+    background-color: #fff;
+}
+.about-item:hover i{
+    transform: translateY(-20px);
+}
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover hr{
+    transition: all 400ms ease-in-out;
+}
+
+.left{
+   
+    margin-left: 250px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+    width: 1000px;
+    border: 2px solid #ebe5e5;
+    background-color: #fff;
+}
+.center{
+
+    margin-left: 250px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 15px;
+    width: 1000px;
+    border: 2px solid #ebe5e5;
+    background-color: #fff;
+
+}
+.right{
+    margin-left: 250px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 15px;
+    width: 1000px;
+    border: 2px solid #ebe5e5;
+    background-color: #fff;
+}

@@ -1,0 +1,12 @@
+.main{
+    background-color: gainsboro;
+    margin-top : 50px;
+    max-width: 400px;
+    border-radius: 5px;
+    
+}
+
+input{
+    margin-top: 30px;
+}
+
